@@ -1,0 +1,91 @@
+.bodyInicio{
+    background-color: rgb(175, 84, 84);
+
+
+}
+.foto{
+    margin-left: 80%;
+    height: auto;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    gap: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloPrincipal{
+    color: rgb(12, 12, 12);
+    justify-content: center;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+    
+}
+
+.footerPrincipal{
+    background-color: #1d151b91;
+    backdrop-filter: blur(10px);
+    height: 150px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+/*contacto*/
+
+.tituloMail{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mail{ 
+    width: 250px;
+    height: 35px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+}
+
+.botonEnviar{
+    width: 75px;
+    height: 37px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+
+.botonContacto{
+    width: 100%;
+    height: 37px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
